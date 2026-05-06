@@ -1,0 +1,6 @@
+/* Prevents scrolling on the entire page */
+html,
+body {
+  overflow: hidden;
+  height: 3000px; /* Required by some browsers to fully lock scroll */
+}
