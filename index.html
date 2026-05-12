@@ -7,34 +7,40 @@
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
     <link rel="stylesheet" href="style.css" defer />
     <script src="https://unpkg.com/scrollama" defer></script>
+    <script
+      src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"
+      defer
+    ></script>
+    <script src="overScrolly.js" defer></script>
     <script src="side_scrolly.js" defer></script>
   </head>
   <body>
+    <!-- intro -->
     <div id="intro">
       <section id="scrolly">
         <article>
-          <div class="step">
+          <div class="step" data-step="assets/southHemi.png">
             <img src="" alt="" />
           </div>
-          <div class="step">
+          <div class="step" data-step="assets/southHemi.png">
             <img src="" alt="" />
           </div>
-          <div class="step">
+          <div class="step" data-step="assets/southHemi.png">
             <img src="" alt="" />
           </div>
-          <div class="step">
+          <div class="step" data-step="assets/southHemi.png">
             <img src="" alt="" />
           </div>
-          <div class="step">
+          <div class="step" data-step="assets/southHemi.png">
             <img src="" alt="" />
           </div>
-          <div class="step">
+          <div class="step" data-step="assets/southHemi.png">
             <img src="" alt="" />
           </div>
-          <div class="step">
+          <div class="step" data-step="assets/southHemi.png">
             <img src="" alt="" />
           </div>
-          <div class="step">
+          <div class="step" data-step="assets/southHemi.png">
             <img src="" alt="" />
           </div>
         </article>
@@ -43,6 +49,7 @@
         </div>
       </section>
     </div>
+    <!-- section 1 -->
     <div id="sect1">
       <p>Penguins are one of the most fascinating creatures on Earth.</p>
       <p>
@@ -56,5 +63,38 @@
         <img src="assets/wingR.png" alt="wingR" id="wingR" />
       </div>
     </div>
+    <!-- section 2 -->
+    <div id="sect2">
+      <section id="scrolly">
+        <div class="sticky-thing">
+          <img src="assets/southHemi.png" alt="southHemi" id="sect2Image" />
+        </div>
+
+        <article>
+          <div class="step" data-step="assets/southHemi.png">
+            <p>
+              Penguins live in all sorts of places! Mainly in the Southern
+              Hemisphere.
+            </p>
+          </div>
+          <div class="step" data-step="assets/northHemi.png">
+            <p>
+              Only one species of penguin doesn't, the Galapagos Penguin lives
+              <i>just</i> above the equator!
+            </p>
+          </div>
+          <div class="step" data-step="assets/rockyCoast.png">
+            <p>
+              Little Penguins (or Fairy Penguins) live on the rocky coats of
+              Australia and New Zealand.
+            </p>
+          </div>
+          <div class="step" data-step="assets/ocean.png">
+            <p>Penguins also spend a lot of time in the Ocean!</p>
+          </div>
+        </article>
+      </section>
+    </div>
+    <p id="outro"></p>
   </body>
 </html>

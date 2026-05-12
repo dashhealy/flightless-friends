@@ -40,10 +40,13 @@ h2 {
 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
-
   text-align: center;
   padding: 1rem;
   border-radius: 1rem;
+}
+
+#outro {
+  height: 1000px;
 }
 
 footer {
@@ -158,4 +161,63 @@ footer {
   100% {
     transform: rotate(-70deg);
   }
+}
+
+/* section 2 */
+#sect2 {
+  width: 100%;
+  background-color: #2f8dd9;
+}
+#sect2 #scrolly {
+  position: relative;
+  padding: 1rem;
+}
+
+#sect2 article {
+  position: relative;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#sect2 .sticky-thing {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  background-color: #2f8dd9;
+  z-index: 0;
+  top: 12.5vh;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#sect2 .sticky-thing img {
+  font-size: 8rem;
+  font-weight: 900;
+  color: #7fb8e7;
+  height: 500px;
+}
+
+#sect2 .step {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #fff;
+}
+
+#sect2 .step:last-child {
+  margin-bottom: 0;
+}
+
+#sect2 .step.is-active p {
+  background-color: #2f8dd9;
+}
+
+#sect2 .step p {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2rem;
 }
