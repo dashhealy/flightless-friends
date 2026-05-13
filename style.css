@@ -39,7 +39,7 @@ h2 {
 
 p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: white;
+  color: grey;
   text-align: center;
   padding: 1rem;
   border-radius: 1rem;
@@ -213,11 +213,28 @@ footer {
 }
 
 #sect2 .step.is-active p {
-  background-color: #2f8dd9;
+  background-color: #7fb8e7;
 }
 
 #sect2 .step p {
   text-align: center;
   padding: 1rem;
   font-size: 2rem;
+}
+
+/* section 3 */
+#foodCont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#food {
+  display: flex;
+  flex-direction: column;
+  background-color: #7fb8e7;
+}
+
+#sect6 {
+  background-color: #42a65a;
 }
