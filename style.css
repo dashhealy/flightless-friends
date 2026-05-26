@@ -542,3 +542,50 @@ footer {
   width: 300px;
   translate: 0 60px;
 }
+
+#greenScroll {
+  background-color: #61e5bd;
+  animation: GreenScroll ease-in;
+  animation-timeline: view();
+  width: 100%;
+  margin-top: 1.2rem;
+}
+
+@keyframes GreenScroll {
+  0% {
+    background-color: #42a65a;
+  }
+  70% {
+    background-color: #61e5bd;
+    color: white;
+  }
+}
+
+#greenScroll article {
+  position: relative;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#greenScroll .sticky-thing {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  z-index: 0;
+  top: 12.5vh;
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#greenScroll .step {
+  height: 2000px;
+}
+
+#greenScroll .step:last-child {
+  margin-bottom: 0px;
+}
